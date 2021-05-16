@@ -55,6 +55,10 @@ export default {
         VariantPropertyMixin
     ],
     props: {
+        arrow: {
+            type: Boolean,
+            default: true
+        },
         filterable: {
             type: Boolean,
             default: false
